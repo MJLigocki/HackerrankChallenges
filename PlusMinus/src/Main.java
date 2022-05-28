@@ -1,5 +1,6 @@
 import java.sql.SQLOutput;
 import java.util.*;
+import java.util.regex.Pattern;
 
 class Result {
 
@@ -22,6 +23,8 @@ class Result {
         System.out.printf("%.6f %n", minuses / arrLength);
         System.out.printf("%.6f %n", zeros / arrLength);
 
+
+
     }
 
 }
@@ -30,6 +33,7 @@ class Result {
 public class Main {
 
     public static void main(String[] args) {
+
 
         List<Integer> testInput = new ArrayList<Integer>();
         testInput.add(-4);
